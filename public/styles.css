@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "myFirstFont";
+  src: url("./3270-Regular.ttf");
+}
+
+h1 {
+  font-family: "myFirstFont"; /
+  
+}
