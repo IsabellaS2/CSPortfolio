@@ -18,8 +18,16 @@ app.get("/", (req, res) => {
   res.render("home");
 });
 
-app.post("/register", async (req, res) => {
-  // Your code for handling the register post request
+//render year one home page
+app.post("/yearone", async (req, res) => {
+});
+
+//render year two home page
+app.post("/yeartwo", async (req, res) => {
+});
+
+//render year three home page
+app.post("/yearthree", async (req, res) => {
 });
 
 // Starting the server and listening on the specified port
