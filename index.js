@@ -18,16 +18,19 @@ app.get("/", (req, res) => {
   res.render("home");
 });
 
-//render year one home page
+// Render year one home page
 app.post("/yearone", async (req, res) => {
+  res.render("yearone");
 });
 
-//render year two home page
+// Render year two home page
 app.post("/yeartwo", async (req, res) => {
+  res.render("yeartwo");
 });
 
-//render year three home page
+// Render year three home page
 app.post("/yearthree", async (req, res) => {
+  res.render("yearthree");
 });
 
 // Starting the server and listening on the specified port
