@@ -34,60 +34,35 @@
         </div>
       </div>
 
-      <div class="cardLayout">
+      <div class="homeCardLayout">
         <a href="/yearone" class="card-link">
-          <div class="card">
-            <div class="topcard">
-              <h4>Year 1</h4>
-            </div>
-            <div class="bottomcard">
-              <div class="cardtext">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </div>
-              <img src="/managerIcon.png" alt="Top Image" class="card-img" />
-            </div>
-          </div>
+          <%- include('partials/card', { 
+            cardBgColour: '#8ad098', 
+            cardHeaderBgColour: '#57a266', 
+            cardTitle: 'Year 1', 
+            cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
+            cardIcon: '/managerIcon.png' 
+          }); -%>
         </a>
         <a href="/yeartwo" class="card-link">
-          <div class="card">
-            <div class="topcard">
-              <h4>Year 2</h4>
-            </div>
-            <div class="bottomcard">
-              <div class="cardtext">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </div>
-              <img src="/designIcon.png" alt="Top Image" class="card-img" />
-            </div>
-          </div>
+          <%- include('partials/card', { 
+            cardBgColour: '#CDB2BB', 
+            cardHeaderBgColour: '#936D79', 
+            cardTitle: 'Year 2', 
+            cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
+            cardIcon: '/designIcon.png' 
+          }); -%>
         </a>
         <a href="/yearthree" class="card-link">
-          <div class="card">
-            <div class="topcard">
-              <h4>Year 3</h4>
-            </div>
-            <div class="bottomcard">
-              <div class="cardtext">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </div>
-              <img
-                src="/accessibilityIcon.png"
-                alt="Top Image"
-                class="card-img"
-              />
-            </div>
-          </div>
+          <%- include('partials/card', { 
+            cardBgColour: '#ECB25A', 
+            cardHeaderBgColour: '#D79026', 
+            cardTitle: 'Year 3', 
+            cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
+            cardIcon: '/accessibilityIcon.png' 
+          }); -%>
         </a>
       </div>
-
-      <!-- <div class="yearCards">
-        <div class="yearOneCard">year1card</div>
-        <div class="yearOneCard">year2card</div>
-        <div class="yearOneCard">year3card</div>
-      </div> -->
     </div>
   </body>
 </html>

@@ -18,14 +18,19 @@ h4 {
   margin-bottom: 0;
 }
 
-#iconHeader {
-  font-family: "myFirstFont";
-  color: #60487d;
-  font-size: 24px;
+body {
+  margin: 0;
+  font-family: "Fira Code";
 }
 
 a {
   text-decoration: none;
+}
+
+#iconHeader {
+  font-family: "myFirstFont";
+  color: #60487d;
+  font-size: 24px;
 }
 
 .headerContainer {
@@ -43,11 +48,6 @@ a {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-}
-
-body {
-  margin: 0;
-  font-family: "Fira Code";
 }
 
 .homeContainer {
@@ -105,29 +105,13 @@ img {
   flex-grow: 2;
 }
 
-/* .yearCards {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.yearOneCard {
-  width: 431px;
-  height: 194px;
-  flex-shrink: 0;
-  border-radius: 25px;
-  background: #8ad098;
-} */
-
-.cardLayout {
+.homeCardLayout {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .card {
-  background: #8ad098;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -136,21 +120,18 @@ img {
   text-align: center;
   border-radius: 25px;
   padding-bottom: 30px;
-  margin-bottom: 5%; /*remove after*/
+  margin-bottom: 5%;
 }
 
 .card-img {
   width: 25%;
   height: 25%;
   padding-top: 15px;
-  /* Adjust padding to see its effect */
   padding-left: 10px;
 }
 
 .topcard {
-  background: #57a266;
   text-align: left;
-
   padding-top: 17px;
   padding-bottom: 17px;
   padding-left: 20px;
