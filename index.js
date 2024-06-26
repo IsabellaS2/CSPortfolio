@@ -19,17 +19,17 @@ app.get("/", (req, res) => {
 });
 
 // Render year one home page
-app.post("/yearone", async (req, res) => {
-  res.render("yearone");
+app.get("/yearone", async (req, res) => {
+  res.render("yearone.ejs");
 });
 
 // Render year two home page
-app.post("/yeartwo", async (req, res) => {
+app.get("/yeartwo", async (req, res) => {
   res.render("yeartwo");
 });
 
 // Render year three home page
-app.post("/yearthree", async (req, res) => {
+app.get("/yearthree", async (req, res) => {
   res.render("yearthree");
 });
 

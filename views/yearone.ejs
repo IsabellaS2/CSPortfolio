@@ -5,59 +5,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Year One</title>
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <div class="homeContainer">
-      <h1 id="homeTitleText">Isabella’s ClearScore Space</h1>
-
-      <div class="homeImageAndText">
-        <img src="/catTestImage.png" alt="Cat Image" />
-        <div class="homeText">
-          <div class="introtext">
-            <h4>
-              This is my personal portfolio and space including all my work,
-              notes and time spent at ClearScore
-            </h4>
-          </div>
-          <div class="paragraph">
-            <h4 id="aboutHeading">About</h4>
-            <h4>
-              In this personal portfolio, I have split my time into each year I
-              have been at ClearScore. I have then split it into blocks that I
-              have had. In those you will find any useful notes that I made
-              during that time to help me or to remember as well as all the work
-              I did.
-            </h4>
-          </div>
-        </div>
-      </div>
-
-      <div class="homeCardLayout">
-        <a href="/yearone" class="sectionCards">
+    <h1 class="yearHeaders">Year One</h1>
+    <div class="wrapper">
+      <div class="container">
+        <a href="/yeartwo" class="sectionCards">
           <%- include('partials/card', { 
             cardBgColour: '#8ad098', 
             cardHeaderBgColour: '#57a266', 
-            cardTitle: 'Year 1', 
+            cardTitle: 'Manager Squad', 
             cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
-            cardIcon: 'icons/managerIconG.png' 
+            cardIcon: 'icons/managerIconG.png',
+            
+          }); -%>
+        </a>
+        <a href="/yeartwo" class="sectionCards">
+          <%- include('partials/card', { 
+            cardBgColour: '#8D819D', 
+            cardHeaderBgColour: '#60487D', 
+            cardTitle: 'Test Engineering', 
+            cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
+            cardIcon: 'icons/testIcon.png' 
           }); -%>
         </a>
         <a href="/yeartwo" class="sectionCards">
           <%- include('partials/card', { 
             cardBgColour: '#CDB2BB', 
             cardHeaderBgColour: '#936D79', 
-            cardTitle: 'Year 2', 
+            cardTitle: 'Design Squad', 
             cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
             cardIcon: 'icons/designIcon.png' 
           }); -%>
         </a>
-        <a href="/yearthree" class="sectionCards">
+        <a href="/yeartwo" class="sectionCards">
           <%- include('partials/card', { 
             cardBgColour: '#ECB25A', 
             cardHeaderBgColour: '#D79026', 
-            cardTitle: 'Year 3', 
+            cardTitle: 'Accessibility Taskforce', 
             cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
             cardIcon: 'icons/accessibilityIcon.png' 
           }); -%>
@@ -66,3 +53,7 @@
     </div>
   </body>
 </html>
+
+</body>
+</html>
+
