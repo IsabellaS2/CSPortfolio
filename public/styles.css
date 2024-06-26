@@ -12,13 +12,14 @@ h1 {
 h4 {
   color: #000;
   font-family: "Fira Code";
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 body {
+  background-color: #f9efef;
   margin: 0;
   font-family: "Fira Code";
 }
@@ -66,7 +67,7 @@ a {
   font-weight: 400;
 }
 
-.imageAndText {
+.homeImageAndText {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -93,7 +94,7 @@ img {
 }
 
 #aboutHeading {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   margin: 0;
   padding-bottom: 7px;
@@ -102,7 +103,6 @@ img {
 .paragraph {
   background: #fff;
   padding: 14px;
-  flex-grow: 2;
 }
 
 .homeCardLayout {
@@ -128,6 +128,7 @@ img {
   height: 25%;
   padding-top: 15px;
   padding-left: 10px;
+  /* filter: drop-shadow(2px 2px 2px black);  need to adjust colour and decide if wanted */
 }
 
 .topcard {
@@ -155,4 +156,29 @@ img {
   font-style: normal;
   font-weight: 500;
   color: #0c0c0c;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 90px; /* Adjust gap as needed */
+}
+
+.yearHeaders {
+  color: #0c0c0c;
+  font-family: "Fira Code";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 0%;
 }
