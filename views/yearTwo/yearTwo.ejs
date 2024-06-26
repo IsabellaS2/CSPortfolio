@@ -1,52 +1,51 @@
-<%- include('partials/header.ejs'); -%>
+<%- include('../partials/header.ejs'); -%>
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Year One</title>
+    <title>Year Two</title>
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <h1 class="yearHeaders">Year One</h1>
+    <h1 class="yearHeaders">Year Two</h1>
     <div class="wrapper">
       <div class="container">
-        <a href="/yeartwo" class="sectionCards">
-          <%- include('partials/card', { 
-            cardBgColour: '#8ad098', 
-            cardHeaderBgColour: '#57a266', 
-            cardTitle: 'Manager Squad', 
-            cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
-            cardIcon: 'icons/managerIconG.png',
-            
-          }); -%>
-        </a>
-        <a href="/yeartwo" class="sectionCards">
-          <%- include('partials/card', { 
+        <a href="/yearone" class="sectionCards">
+          <%- include('../partials/card', { 
             cardBgColour: '#8D819D', 
             cardHeaderBgColour: '#60487D', 
-            cardTitle: 'Test Engineering', 
+            cardTitle: 'Score & Report', 
             cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
-            cardIcon: 'icons/testIcon.png' 
+            cardIcon: 'icons/scoreIcon.png' 
           }); -%>
         </a>
-        <a href="/yeartwo" class="sectionCards">
-          <%- include('partials/card', { 
+        <a href="/yearone" class="sectionCards">
+          <%- include('../partials/card', { 
             cardBgColour: '#CDB2BB', 
             cardHeaderBgColour: '#936D79', 
-            cardTitle: 'Design Squad', 
+            cardTitle: 'My ClearScore Frontend', 
             cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
-            cardIcon: 'icons/designIcon.png' 
+            cardIcon: 'icons/frontendIcon.png' 
           }); -%>
         </a>
-        <a href="/yeartwo" class="sectionCards">
-          <%- include('partials/card', { 
+        <a href="/yearone" class="sectionCards">
+          <%- include('../partials/card', { 
             cardBgColour: '#ECB25A', 
             cardHeaderBgColour: '#D79026', 
-            cardTitle: 'Accessibility Taskforce', 
+            cardTitle: 'My ClearScore iOS', 
             cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
-            cardIcon: 'icons/accessibilityIcon.png' 
+            cardIcon: 'icons/iOSIcon.png' 
+          }); -%>
+        </a>
+        <a href="/yearone" class="sectionCards">
+          <%- include('../partials/card', { 
+            cardBgColour: '#8ad098', 
+            cardHeaderBgColour: '#57a266', 
+            cardTitle: 'Loans Squad', 
+            cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
+            cardIcon: 'icons/loansIcon.png' 
           }); -%>
         </a>
       </div>
