@@ -20,12 +20,12 @@ app.get("/", (req, res) => {
 
 // Render year one home page
 app.get("/yearone", async (req, res) => {
-  res.render("yearone.ejs");
+  res.render('yearOne/yearOne');
 });
 
 // Render year two home page
 app.get("/yeartwo", async (req, res) => {
-  res.render("yeartwo");
+  res.render("yearTwo/yearTwo");
 });
 
 // Render year three home page

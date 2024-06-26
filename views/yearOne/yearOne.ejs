@@ -1,4 +1,4 @@
-<%- include('partials/header.ejs'); -%>
+<%- include('../partials/header.ejs'); -%>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,43 +9,44 @@
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <h1 class="yearHeaders">Year Two</h1>
+    <h1 class="yearHeaders">Year One</h1>
     <div class="wrapper">
       <div class="container">
-        <a href="/yearone" class="sectionCards">
-          <%- include('partials/card', { 
-            cardBgColour: '#8D819D', 
-            cardHeaderBgColour: '#60487D', 
-            cardTitle: 'Score & Report', 
-            cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
-            cardIcon: 'icons/scoreIcon.png' 
-          }); -%>
-        </a>
-        <a href="/yearone" class="sectionCards">
-          <%- include('partials/card', { 
-            cardBgColour: '#CDB2BB', 
-            cardHeaderBgColour: '#936D79', 
-            cardTitle: 'My ClearScore Frontend', 
-            cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
-            cardIcon: 'icons/frontendIcon.png' 
-          }); -%>
-        </a>
-        <a href="/yearone" class="sectionCards">
-          <%- include('partials/card', { 
-            cardBgColour: '#ECB25A', 
-            cardHeaderBgColour: '#D79026', 
-            cardTitle: 'My ClearScore iOS', 
-            cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
-            cardIcon: 'icons/iOSIcon.png' 
-          }); -%>
-        </a>
-        <a href="/yearone" class="sectionCards">
-          <%- include('partials/card', { 
+        <a href="/yeartwo" class="sectionCards">
+          <%- include('../partials/card', { 
             cardBgColour: '#8ad098', 
             cardHeaderBgColour: '#57a266', 
-            cardTitle: 'Loans Squad', 
+            cardTitle: 'Manager Squad', 
             cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
-            cardIcon: 'icons/loansIcon.png' 
+            cardIcon: 'icons/managerIconG.png',
+            
+          }); -%>
+        </a>
+        <a href="/yeartwo" class="sectionCards">
+          <%- include('../partials/card', { 
+            cardBgColour: '#8D819D', 
+            cardHeaderBgColour: '#60487D', 
+            cardTitle: 'Test Engineering', 
+            cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
+            cardIcon: 'icons/testIcon.png' 
+          }); -%>
+        </a>
+        <a href="/yeartwo" class="sectionCards">
+          <%- include('../partials/card', { 
+            cardBgColour: '#CDB2BB', 
+            cardHeaderBgColour: '#936D79', 
+            cardTitle: 'Design Squad', 
+            cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
+            cardIcon: 'icons/designIcon.png' 
+          }); -%>
+        </a>
+        <a href="/yeartwo" class="sectionCards">
+          <%- include('../partials/card', { 
+            cardBgColour: '#ECB25A', 
+            cardHeaderBgColour: '#D79026', 
+            cardTitle: 'Accessibility Taskforce', 
+            cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
+            cardIcon: 'icons/accessibilityIcon.png' 
           }); -%>
         </a>
       </div>
