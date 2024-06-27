@@ -22,7 +22,7 @@
             </h4>
           </div>
           <div class="paragraph">
-            <h4 id="aboutHeading">About</h4>
+            <h4 class="aboutHeading">About</h4>
             <h4>
               In this personal portfolio, I have split my time into each year I
               have been at ClearScore. I have then split it into blocks that I
@@ -36,16 +36,16 @@
 
       <div class="homeCardLayout">
         <a href="/yearone" class="sectionCards">
-          <%- include('partials/card', { 
+          <%- include('partials/homeCard', { 
             cardBgColour: '#8ad098', 
             cardHeaderBgColour: '#57a266', 
             cardTitle: 'Year 1', 
             cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
-            cardIcon: 'icons/managerIconG.png' 
+            cardIcon: 'icons/managerIcon.png' 
           }); -%>
         </a>
         <a href="/yeartwo" class="sectionCards">
-          <%- include('partials/card', { 
+          <%- include('partials/homeCard', { 
             cardBgColour: '#CDB2BB', 
             cardHeaderBgColour: '#936D79', 
             cardTitle: 'Year 2', 
@@ -54,7 +54,7 @@
           }); -%>
         </a>
         <a href="/yearthree" class="sectionCards">
-          <%- include('partials/card', { 
+          <%- include('partials/homeCard', { 
             cardBgColour: '#ECB25A', 
             cardHeaderBgColour: '#D79026', 
             cardTitle: 'Year 3', 

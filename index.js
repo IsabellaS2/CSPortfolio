@@ -23,6 +23,10 @@ app.get("/yearone", async (req, res) => {
   res.render('yearOne/yearOne');
 });
 
+app.get("/testengineering", async (req, res) => {
+  res.render('yearOne/testEngineering/testEngineeringMain');
+});
+
 // Render year two home page
 app.get("/yeartwo", async (req, res) => {
   res.render("yearTwo/yearTwo");
