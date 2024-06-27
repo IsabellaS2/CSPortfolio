@@ -9,13 +9,35 @@ h1 {
   font-size: 24px;
 }
 
+h2 {
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 3%;
+}
+
+h3 {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 h4 {
   color: #000;
-  font-family: "Fira Code";
   font-size: 18px;
   font-weight: 500;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0%;
 }
 
 body {
@@ -93,7 +115,7 @@ img {
   margin-bottom: 42px;
 }
 
-#aboutHeading {
+.aboutHeading {
   font-size: 20px;
   font-weight: 500;
   margin: 0;
@@ -169,7 +191,7 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 90px; /* Adjust gap as needed */
+  gap: 90px;
 }
 
 .yearHeaders {
@@ -181,4 +203,104 @@ img {
   line-height: normal;
   text-align: center;
   margin-bottom: 0%;
+}
+
+/* test engineering page */
+
+.TContainer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.textcontainer {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.aboutsection {
+  width: 70%;
+  padding: 2%;
+  background-color: #cdb2bb;
+}
+
+.card-link {
+  color: inherit;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.upsellcardlayout {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.card1 {
+  width: 314px;
+  height: 65%;
+}
+
+.upselltopcard {
+  background: #d6a6a6;
+  padding: 9px;
+  padding-right: 35px;
+  border-radius: 24px 24px 0 0;
+  border: 1px solid #000;
+  border-bottom-width: 0;
+}
+
+.upsellcardtitle {
+  text-align: right;
+  font-size: 15px;
+}
+
+.upsellbottomcard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 5%;
+  border-radius: 0 0 24px 24px;
+  border: 1px solid #000;
+  border-top-width: 0;
+  background: #f9efef;
+}
+
+.upsell-card-img {
+  width: 22%;
+  height: 18%;
+}
+
+.upsellcardtext {
+  word-wrap: break-word;
+  width: 190px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.workicons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.workImg {
+  width: 231px;
+  height: 231px;
+}
+
+.workText {
+  color: #3c2d2d;
+  text-align: center;
+  font-size: 37px;
+  font-weight: 500;
+  text-decoration-line: underline;
+  padding-top: 2%;
+  padding-bottom: 15%;
+  display: block;
+  width: 100%;
 }
