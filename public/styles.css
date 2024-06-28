@@ -241,7 +241,7 @@ img {
 
 .card1 {
   width: 314px;
-  height: 65%;
+  height: 133px;
 }
 
 .upselltopcard {
@@ -276,9 +276,8 @@ img {
 }
 
 .upsellcardtext {
-  word-wrap: break-word;
-  width: 190px;
-  font-size: 20px;
+  width: 250px;
+  font-size: 18px;
   text-align: center;
 }
 
