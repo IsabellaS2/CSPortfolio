@@ -23,9 +23,22 @@ app.get("/yearone", async (req, res) => {
   res.render('yearOne/yearOne');
 });
 
-app.get("/testengineering", async (req, res) => {
-  res.render('yearOne/testEngineering/testEngineeringMain');
+app.get("/managersquad", async (req, res) => {
+  res.render('yearOne/managerSquad/managerSquadHome');
 });
+
+app.get("/testengineering", async (req, res) => {
+  res.render('yearOne/testEngineering/testEngineeringHome');
+});
+
+app.get("/designsquad", async (req, res) => {
+  res.render('yearOne/designSquad/designSquadHome');
+});
+
+app.get("/accessibilitytaskforce", async (req, res) => {
+  res.render('yearOne/accessibilityTaskforce/accessibilityTaskforceHome');
+});
+
 
 // Render year two home page
 app.get("/yeartwo", async (req, res) => {

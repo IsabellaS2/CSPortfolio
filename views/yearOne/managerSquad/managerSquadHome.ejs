@@ -1,0 +1,47 @@
+<%- include('../../partials/header.ejs'); -%>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manager Squad</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="TContainer">
+      <div class="textcontainer">
+        <div>
+          <h2>Manager Squad</h2>
+          <h3>23rd of October 2023 - 4th of December 2023</h3>
+          <div class="aboutsection">
+            <h4 class="aboutHeading">About</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            </p>
+          </div>
+        </div>
+
+        <div class="upsellcardlayout">
+          <%- include('../../partials/upsellCard', { upsellCardLink: '/yearone', upsellCardIcon: '/icons/upsellCardIcons/designIcon.png', upsellCardText: 'Check out my time in Design!' }); -%>
+          <%- include('../../partials/upsellCard', { upsellCardLink: '/yearone', upsellCardIcon: '/icons/upsellCardIcons/accessibilityIcon.png', upsellCardText: 'Check out my time in Accessibility Taskforce!' }); -%>
+        </div>
+      </div>
+
+      <div class="workicons">
+        <div>
+          <a href="/yearone">
+            <img src="/icons/workIcon.png" alt="Cat Image" class="workImg" />
+          </a>
+          <a href="/yearone" class="workText">What did I do?</a>
+        </div>
+        <div>
+          <a href="/yearone">
+            <img src="/icons/learnIcon.png" alt="Cat Image" class="workImg" />
+          </a>
+          <a href="/yearone" class="workText">What did I learn?</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

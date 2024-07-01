@@ -130,14 +130,17 @@ img {
 .homeCardLayout {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  align-self: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .card {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 431px;
+  width: 400px;
   height: 170px;
   text-align: center;
   border-radius: 25px;
@@ -241,7 +244,7 @@ img {
 
 .card1 {
   width: 314px;
-  height: 133px;
+  height: 65%;
 }
 
 .upselltopcard {
@@ -276,8 +279,9 @@ img {
 }
 
 .upsellcardtext {
-  width: 250px;
-  font-size: 18px;
+  word-wrap: break-word;
+  width: 190px;
+  font-size: 20px;
   text-align: center;
 }
 
