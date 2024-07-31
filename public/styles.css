@@ -131,7 +131,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-self: flex-start;
+  align-items: flex-start;
   flex-wrap: wrap;
   gap: 20px;
 }
@@ -230,6 +230,14 @@ img {
   background-color: #cdb2bb;
 }
 
+.LearnTextSection {
+  width: 70%;
+  padding: 2%;
+  margin: 2%;
+  background-color: #cdb2bb;
+  height: fit-content;
+}
+
 .card-link {
   color: inherit;
   margin-right: 10%;
@@ -296,6 +304,11 @@ img {
   height: 231px;
 }
 
+.learnImgInHeader {
+  width: 185px;
+  height: 185px;
+}
+
 .workText {
   color: #3c2d2d;
   text-align: center;
@@ -306,4 +319,20 @@ img {
   padding-bottom: 15%;
   display: block;
   width: 100%;
+}
+
+.learnDivHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 5%;
+  margin-left: 80px;
+}
+
+.extratextsection {
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+  margin-right: 80px;
 }
