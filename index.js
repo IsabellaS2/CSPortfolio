@@ -20,29 +20,28 @@ app.get("/", (req, res) => {
 
 // Render year one home page
 app.get("/yearone", async (req, res) => {
-  res.render('yearOne/yearOne');
+  res.render("yearOne/yearOne");
 });
 
 app.get("/managersquad", async (req, res) => {
-  res.render('yearOne/managerSquad/managerSquadHome');
+  res.render("yearOne/managerSquad/managerSquadHome");
 });
 
 app.get("/testengineering", async (req, res) => {
-  res.render('yearOne/testEngineering/testEngineeringHome');
+  res.render("yearOne/testEngineering/testEngineeringHome");
 });
 
 app.get("/designsquad", async (req, res) => {
-  res.render('yearOne/designSquad/designSquadHome');
+  res.render("yearOne/designSquad/designSquadHome");
 });
 
 app.get("/accessibilitytaskforce", async (req, res) => {
-  res.render('yearOne/accessibilityTaskforce/accessibilityTaskforceHome');
+  res.render("yearOne/accessibilityTaskforce/accessibilityTaskforceHome");
 });
 
 app.get("/accessibilitytaskforcelearn", async (req, res) => {
-  res.render('yearOne/accessibilityTaskforce/accessibilityTaskforceLearn');
+  res.render("yearOne/accessibilityTaskforce/accessibilityTaskforceLearn");
 });
-
 
 // Render year two home page
 app.get("/yeartwo", async (req, res) => {
@@ -51,7 +50,7 @@ app.get("/yeartwo", async (req, res) => {
 
 // Render year three home page
 app.get("/yearthree", async (req, res) => {
-  res.render("home");
+  res.render("yearThree/yearThree");
 });
 
 // Starting the server and listening on the specified port
