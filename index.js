@@ -39,6 +39,10 @@ app.get("/accessibilitytaskforce", async (req, res) => {
   res.render('yearOne/accessibilityTaskforce/accessibilityTaskforceHome');
 });
 
+app.get("/accessibilitytaskforcelearn", async (req, res) => {
+  res.render('yearOne/accessibilityTaskforce/accessibilityTaskforceLearn');
+});
+
 
 // Render year two home page
 app.get("/yeartwo", async (req, res) => {
@@ -47,7 +51,7 @@ app.get("/yeartwo", async (req, res) => {
 
 // Render year three home page
 app.get("/yearthree", async (req, res) => {
-  res.render("yearthree");
+  res.render("home");
 });
 
 // Starting the server and listening on the specified port

@@ -1,0 +1,52 @@
+<%- include('../../partials/header.ejs'); -%>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessibility Taskforce</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="learnDiv">
+      <div class="learnDivHeader">
+        <img src="/icons/learnIcon.png" alt="Cat Image" class="learnImgInHeader" />
+        <h2>What did I learn in Accessibility Taskforce?</h2>
+        <div>        <%- include('../../partials/upsellCard', { upsellCardLink:
+         '/designsquad', upsellCardIcon: '/icons/upsellCardIcons/designIcon.png',
+         upsellCardText: 'Check out my time in Design!' }); -%></div>
+
+      </div>
+
+
+      <div class = "extratextsection">
+        <div class="LearnTextSection">
+         <h4 class="aboutHeading">About</h4>
+         <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+            sunt in culpa qui officia deserunt mollit anim id est laborum
+          </p>
+         </div>
+
+          <div class="LearnTextSection">
+            <h4 class="aboutHeading">About</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum
+            </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
