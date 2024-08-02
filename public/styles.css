@@ -230,7 +230,7 @@ img {
   background-color: #cdb2bb;
 }
 
-.LearnTextSection {
+.actionParagraphText {
   width: 70%;
   padding: 2%;
   margin: 2%;
@@ -304,7 +304,7 @@ img {
   height: 231px;
 }
 
-.learnImgInHeader {
+.ImgInHeader {
   width: 185px;
   height: 185px;
 }
@@ -321,16 +321,17 @@ img {
   width: 100%;
 }
 
-.learnDivHeader {
+.actionMainDivHeader {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   padding-right: 5%;
   margin-left: 80px;
+  margin-top: 2%;
 }
 
-.extratextsection {
+.actionMainTextDiv {
   display: flex;
   flex-direction: row;
   margin-left: 80px;
