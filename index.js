@@ -23,24 +23,56 @@ app.get("/yearone", async (req, res) => {
   res.render("yearOne/yearOne");
 });
 
+//MANAGER SQUAD
 app.get("/managersquad", async (req, res) => {
   res.render("yearOne/managerSquad/managerSquadHome");
 });
 
+app.get("/managersquadwork", async (req, res) => {
+  res.render("yearOne/managerSquad/managerSquadWork");
+});
+
+app.get("/managersquadlearn", async (req, res) => {
+  res.render("yearOne/managerSquad/managerSquadLearn");
+});
+
+//TEST ENGINEERING
 app.get("/testengineering", async (req, res) => {
   res.render("yearOne/testEngineering/testEngineeringHome");
 });
+ 
+app.get("/testengineeringlearn", async (req, res) => {
+  res.render("yearOne/testEngineering/testEngineeringLearn");
+});
 
+app.get("/testengineeringwork", async (req, res) => {
+  res.render("yearOne/testEngineering/testEngineeringWork");
+});
+
+//DESIGN SQUAD
 app.get("/designsquad", async (req, res) => {
   res.render("yearOne/designSquad/designSquadHome");
 });
 
+app.get("/designsquadlearn", async (req, res) => {
+  res.render("yearOne/designSquad/designSquadLearn");
+});
+
+app.get("/designsquadwork", async (req, res) => {
+  res.render("yearOne/designSquad/designSquadWork");
+});
+
+//ACCESSIBILITY TASKFORCE
 app.get("/accessibilitytaskforce", async (req, res) => {
   res.render("yearOne/accessibilityTaskforce/accessibilityTaskforceHome");
 });
 
 app.get("/accessibilitytaskforcelearn", async (req, res) => {
   res.render("yearOne/accessibilityTaskforce/accessibilityTaskforceLearn");
+});
+
+app.get("/accessibilitytaskforcework", async (req, res) => {
+  res.render("yearOne/accessibilityTaskforce/accessibilityTaskforceWork");
 });
 
 // Render year two home page
