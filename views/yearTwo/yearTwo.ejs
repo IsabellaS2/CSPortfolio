@@ -12,7 +12,16 @@
     <h1 class="yearHeaders">Year Two</h1>
     <div class="wrapper">
       <div class="container">
-        <a href="/yearone" class="sectionCards">
+        <a href="/loanssquad" class="sectionCards">
+          <%- include('../partials/homeCard', { 
+            cardBgColour: '#8ad098', 
+            cardHeaderBgColour: '#57a266', 
+            cardTitle: 'Loans Squad', 
+            cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
+            cardIcon: 'icons/loansIcon.png' 
+          }); -%>
+        </a>
+        <a href="/score&report" class="sectionCards">
           <%- include('../partials/homeCard', { 
             cardBgColour: '#8D819D', 
             cardHeaderBgColour: '#60487D', 
@@ -21,7 +30,7 @@
             cardIcon: 'icons/scoreIcon.png' 
           }); -%>
         </a>
-        <a href="/yearone" class="sectionCards">
+        <a href="/mycsfrontend" class="sectionCards">
           <%- include('../partials/homeCard', { 
             cardBgColour: '#CDB2BB', 
             cardHeaderBgColour: '#936D79', 
@@ -30,22 +39,13 @@
             cardIcon: 'icons/frontendIcon.png' 
           }); -%>
         </a>
-        <a href="/yearone" class="sectionCards">
+        <a href="/mycsios" class="sectionCards">
           <%- include('../partials/homeCard', { 
             cardBgColour: '#ECB25A', 
             cardHeaderBgColour: '#D79026', 
             cardTitle: 'My ClearScore iOS', 
             cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
             cardIcon: 'icons/iOSIcon.png' 
-          }); -%>
-        </a>
-        <a href="/yearone" class="sectionCards">
-          <%- include('../partials/homeCard', { 
-            cardBgColour: '#8ad098', 
-            cardHeaderBgColour: '#57a266', 
-            cardTitle: 'Loans Squad', 
-            cardText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
-            cardIcon: 'icons/loansIcon.png' 
           }); -%>
         </a>
       </div>
